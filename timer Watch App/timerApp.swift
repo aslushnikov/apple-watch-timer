@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Foundation
+import ClockKit
 
 @main
 struct timer_Watch_AppApp: App {
@@ -13,5 +15,11 @@ struct timer_Watch_AppApp: App {
         WindowGroup {
             ContentView()
         }
+    }
+}
+
+class ComplicationController: NSObject, CLKComplicationDataSource {
+    func getCurrentTimelineEntry(for complication: CLKComplication, withHandler handler: @escaping (CLKComplicationTimelineEntry?) -> Void) {
+        // TODO: Finish implementing this required method.
     }
 }

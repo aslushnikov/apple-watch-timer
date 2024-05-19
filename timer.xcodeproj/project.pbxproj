@@ -56,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D79A51012BFAB68B00D44385 /* timer Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "timer Watch App.entitlements"; sourceTree = "<group>"; };
 		D7EBC6282BF9212900D16D3A /* timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EBC62E2BF9212900D16D3A /* timer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "timer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EBC6332BF9212900D16D3A /* timerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerApp.swift; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 		D7EBC6322BF9212900D16D3A /* timer Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				D79A51012BFAB68B00D44385 /* timer Watch App.entitlements */,
 				D7EBC6332BF9212900D16D3A /* timerApp.swift */,
 				D7EBC6352BF9212900D16D3A /* ContentView.swift */,
 				D7EBC6372BF9212A00D16D3A /* Assets.xcassets */,
@@ -471,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "timer Watch App/timer Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"timer Watch App/Preview Content\"";
@@ -478,6 +481,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = timer;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "will share health";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "will update health";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "timer Watch App/timer Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"timer Watch App/Preview Content\"";
@@ -508,6 +514,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = timer;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "will share health";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "will update health";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
